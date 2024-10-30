@@ -1,0 +1,426 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.mnav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.upnav{
+    background-color: #ffe8df;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: jost, sans-serif;
+    padding: 1% 6%;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(55, 55, 55);
+    justify-content: space-between;
+    color:rgb(255, 230, 201);
+    align-items: center;
+    padding: 1% 6%;
+}
+
+.logo-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu span{
+    display: none;
+    height: 2%;
+    font-size: 40px;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left div{
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right div{
+    margin: 0 15px;
+}
+
+.right input{
+    border: px solid white;
+    background-color: transparent;
+    padding: 1%;
+    font-weight: 600;
+}
+
+.rnd{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    text-align: center;
+    
+}
+
+.bigimg{
+    z-index: 1;
+    height: 83vh;
+    background-image: url(/images/bigimgjpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 9%;
+}
+
+.bigimg .content{
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.bigimg .contimg{
+    height: 100px;
+    /* background-color: green; */
+    width: auto;
+    margin: 20px 0;
+}
+
+.contimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.bigbuttn button{
+    padding: 15px 45px;
+    color: rgb(139, 138, 138);
+    font-size:14px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+}
+
+.typeofprdctm{
+    /* background-color: green; */
+    height: 30vh;
+    padding:4% 3%;
+}
+.typeofprdct{
+    /* background-color: yellow; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.typeofprdctcard1,.typeofprdctcard2,.typeofprdctcard3,.typeofprdctcard4,.typeofprdctcard5,.typeofprdctcard6,.typeofprdctcard7{
+    /* background-color: red; */
+    height:100%;
+    width: 13.5%;
+}
+.prodtypeimg1,.prodtypeimg2 ,.prodtypeimg3,.prodtypeimg3,.prodtypeimg4, .prodtypeimg5,.prodtypeimg6,.prodtypeimg7{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+    border-radius: 50%;
+}
+.prodtypeimg1{
+    background-image: url(/images/Kurtas-ch.jpg);
+}
+.prodtypeimg2{
+    background-image: url(/images/Party-wear-ch.jpg);
+}
+.prodtypeimg3{
+    background-image: url(/images/sale-ch.jpg);
+}
+.prodtypeimg4{
+    background-image: url(/images/Saree-ch.jpg);
+}
+.prodtypeimg5{
+    background-image: url(/images/Stitching-ch.jpg);
+}
+.prodtypeimg6{
+    background-image: url(/images/Unstitched-sets-ch.jpg);
+}
+.prodtypeimg7{
+    background-image: url(/images/Wedding-ch.jpg);
+}
+.typeofprdctdata{
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Best Selling Product */
+
+.bsph{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: gray;
+    padding: 20px 25px;
+    /* background-color: yellow; */
+}
+
+.bspm {
+   background-color: rgba(128, 128, 128,.2);
+   height: 160vh;
+   display: flex;
+   padding: 10px 4%;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.bspm .cardm1,.cardm2,.cardm3,.cardm4,.cardm5,.cardm6,.cardm7,.cardm8{
+    height:73vh;
+    width: 23%; 
+    margin: 10px 0;
+    padding:0 ;  
+}
+
+.cardimg{
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardtext p{
+    margin: 25px 30px 30px;
+}
+
+.cardtext h3{
+    margin: 0 30px 10px;
+}
+
+.cardbutton button{
+    border-radius: 0;
+    padding: 15px;
+    border: 1px solid grey;
+    margin: 10px 30px ;
+    color: rgb(80, 79, 79);
+    font-weight: 500;
+    background-color: rgb(209, 207, 207);
+}
+
+.cardbutton button:hover{
+    background-color: aliceblue;
+    /* transition: ease-in; */
+    transition-duration: .5s;
+}
+
+.mbttn{
+    text-align: center;
+}
+
+.mbttn button{
+    margin: 30px;
+    padding: 10px 35px;
+    color: rgb(67, 67, 67);
+    font-size: 14px;
+    border-radius: 0;
+    border: 1px solid;
+    font-weight: 600;
+    background-color: white;
+}
+
+.mbttn button:hover{
+    color: white;
+    background-color: rgb(150, 150, 150);
+    transition-duration: .3s;
+}
+
+
+/* New Arrivals  */
+
+.newarrivalshead{
+    color:  grey;
+    padding: 30px 30px 15px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 650;
+}
+
+/* Footer  */
+
+footer{
+    background-color: black;
+    height: 48vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-block1{
+    padding: 60px 15px;
+}
+
+.footer-block1 .container{
+    margin: 0 50px;
+    padding: 0 12px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row li{
+    margin: 0 20px;
+}
+.foot-logo{
+    height: 50px;
+    width: 300px;
+    background-image: url(/images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot-icon{
+    height: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-icon div{
+    font-size: 18px;
+    color: #ffe8df;
+    font-weight: 700;
+}
+
+.footer-block1 h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.footer-block1 div{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7d8498;
+    font-weight: 400;
+    font-family: jost, sans-serif;
+}
+
+.footer-block1 li{
+    list-style: none;
+}
+
+@media  (max-width:1200px){
+    .upnav{
+        text-align: center;
+    }
+    .nav{
+        padding: 1% 4%;
+    }
+    .menu span{
+        display: inline;
+        /* height: 2%; */
+        margin-right: 10px;
+    }
+    .nav .left{
+        display: none;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .logo img{
+        height: 60px;
+    }
+    .right input{
+        display: none;
+    }
+    .bigimg{
+        height: 65vh;
+    }
+    .bigimg .content{
+        top: 22%;
+        left:5%;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .bigimg .contimg{
+        height: 130px;
+        left: 3%;
+        width: auto;
+        margin: 10px 0;
+    }
+    .typeofprdctcard3,.typeofprdctcard4,.typeofprdctcard5,.typeofprdctcard6,.typeofprdctcard7{
+        display: none;
+    }
+    .typeofprdctcard1,.typeofprdctcard2{
+        width: 49%;
+        margin: 20px 10px;
+        height: 40vh;
+    }
+    .typeofprdctm{
+        height: 40vh;
+    }
+    .bsph{
+        font-size: 30px;
+        padding: 0 0 40px;
+    }
+    .bspm {
+        height: 70vh;
+        padding: 10px 3%;
+     }
+    .bspm .cardm1,.cardm2,.cardm3,.cardm4,.cardm5,.cardm6,.cardm7,.cardm8{
+        height:20vh;
+        margin: 8px 0; 
+    }
+    .cardtext p{
+        margin: 25px 15px 20px;
+    }
+    
+    .cardtext h3{
+        margin: 0 15px 10px;
+    }
+    
+    .cardbutton button{
+        padding: 6px 15px;
+        margin: 10px 15px ;
+        font-weight: 400;
+    }
+
+    footer{
+        height: 100vh;
+    }
+    .row{
+        padding: 0 120px;
+    }
+    .colm1,.colm2,.colm3,.colm4{
+        margin: 20px 0;
+
+    }
+}
+    @media (min-width:300px) and (max-width:762px){
+        img.menu{
+          display: flex;
+        }
+    }
