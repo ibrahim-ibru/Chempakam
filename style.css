@@ -80,7 +80,7 @@
 .bigimg{
     z-index: 1;
     height: 83vh;
-    background-image: url(/images/bigimgjpg.jpg);
+    background-image: url(./images/bigimgjpg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,25 +143,25 @@
     border-radius: 50%;
 }
 .prodtypeimg1{
-    background-image: url(/images/Kurtas-ch.jpg);
+    background-image: url(./images/Kurtas-ch.jpg);
 }
 .prodtypeimg2{
-    background-image: url(/images/Party-wear-ch.jpg);
+    background-image: url(./images/Party-wear-ch.jpg);
 }
 .prodtypeimg3{
-    background-image: url(/images/sale-ch.jpg);
+    background-image: url(./images/sale-ch.jpg);
 }
 .prodtypeimg4{
-    background-image: url(/images/Saree-ch.jpg);
+    background-image: url(./images/Saree-ch.jpg);
 }
 .prodtypeimg5{
-    background-image: url(/images/Stitching-ch.jpg);
+    background-image: url(./images/Stitching-ch.jpg);
 }
 .prodtypeimg6{
-    background-image: url(/images/Unstitched-sets-ch.jpg);
+    background-image: url(./images/Unstitched-sets-ch.jpg);
 }
 .prodtypeimg7{
-    background-image: url(/images/Wedding-ch.jpg);
+    background-image: url(./images/Wedding-ch.jpg);
 }
 .typeofprdctdata{
     padding: 10px;
@@ -294,7 +294,7 @@ footer{
 .foot-logo{
     height: 50px;
     width: 300px;
-    background-image: url(/images/logo.png);
+    background-image: url(./images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
